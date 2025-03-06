@@ -10,8 +10,9 @@ This project and everyone participating in it is governed by the [Git Graph Code
 
 
 ## regarding MHutchies
+
 Please don't bother him, he has moved off of github and doesn't seem interested in this project anymore. We are thankful to him for this wonderful VScode addon.
-This fork start from the last commit still licensed under MIT.
+This fork start from the last commit still licensed under MIT. 
 
 ## How Can I Contribute?
 
