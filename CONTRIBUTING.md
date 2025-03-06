@@ -6,7 +6,12 @@ The following are a set of guidelines for contributing to vscode-git-graph.
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Git Graph Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [mhutchie@16right.com](mailto:mhutchie@16right.com).
+This project and everyone participating in it is governed by the [Git Graph Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [Alexandre Foley](mailto:Alexandre.Foley@usherbrooke.ca).
+
+
+## regarding MHutchies
+Please don't bother him, he has moved off of github and doesn't seem interested in this project anymore. We are thankful to him for this wonderful VScode addon.
+This fork start from the last commit still licensed under MIT.
 
 ## How Can I Contribute?
 
@@ -14,10 +19,10 @@ This project and everyone participating in it is governed by the [Git Graph Code
 
 Raise a bug you've found to help us improve! Due to the extremely broad nature of Git repositories, some bugs might slip through the cracks.
 
-Check the [open bugs](https://github.com/mhutchie/vscode-git-graph/issues?q=is%3Aissue+is%3Aopen+label%3A"bugs"), and bugs ready for release on the [project board](https://github.com/mhutchie/vscode-git-graph/projects/1#column-4514040) to see if it is already in the process of being resolved. If it is, give the issue a thumbs up, and help provide additional context if the issue author was unable to provide some details.
+Check the [open bugs](https://github.com/AlexandreFoley/vscode-git-graph/issues?q=is%3Aissue+is%3Aopen+label%3A"bugs"), to see if the bug as already been reported. Share in the Issue all relevant information you have discovered about that bug.
 
 If the bug hasn't previously been reported, please follow these steps:
-1. Raise an issue by selecting the "Bug Report" template on [this page](https://github.com/mhutchie/vscode-git-graph/issues/new/choose).
+1. Raise an issue by selecting the "Bug Report" template.
 2. Follow the template as you see appropriate, it's only meant to be a guide.
 3. Click "Submit new issue"
 
@@ -27,20 +32,20 @@ We aim to respond promptly, and get it resolved as quickly as possible.
 
 Suggest an idea for this extension! We want to make Git Graph an even more useful tool in Visual Studio Code, so any suggestions you have are greatly appreciated.
 
-Check the [open feature requests](https://github.com/mhutchie/vscode-git-graph/issues?q=is%3Aissue+is%3Aopen+label%3A"feature+request"), and feature requests ready for release on the [project board](https://github.com/mhutchie/vscode-git-graph/projects/1#column-4514040) to see if your idea is already under consideration or on its way. If it is, give the issue a thumbs up so it will be higher prioritsed.
+Check the [open feature requests](https://github.com/AlexandreFoley/vscode-git-graph/issues?q=is%3Aissue+is%3Aopen+label%3A"feature+request").
 
 If your feature hasn't previously been suggested, please follow these steps:
-1. Raise an issue by selecting the "Feature Request" template on [this page](https://github.com/mhutchie/vscode-git-graph/issues/new/choose).
+1. Raise an issue by selecting the "Feature Request" template.
 2. Follow the template as you see appropriate, it's only meant to be a guide.
 3. Click "Submit new issue"
 
-We aim to respond promptly, and prioritise it as we and the community see appropriate.
+We aim to respond promptly, and prioritize it as we and the community see appropriate.
 
 ### Contributing To Development
 
 If you're interested in helping contribute, either:
-* Find an open issue you'd like to work on, and comment on it. Once the code owner has responded with some background information and initial ideas, it will be assigned to you to work on.
-* Raise an issue describing the feature you'd like to work on, mentioning that you'd like to implement it. Once it has been responded to by the code owner, it has been confirmed as a suitable feature of Git Graph and it will be assigned to you to work on.
+* Find an open issue you'd like to work on, and comment on it. Once the maintainer has responded with some background information and initial ideas, it will be assigned to you to work on.
+* Raise an issue describing the feature you'd like to work on, mentioning that you'd like to implement it. Once it has been responded to by the maintainer, it has been confirmed as a suitable feature of Git Graph and it will be assigned to you to work on.
 
 Step 1: To set up your development environment, please follow these steps:
 1. Install [Node.js](https://nodejs.org/en/) if it is not already installed.
