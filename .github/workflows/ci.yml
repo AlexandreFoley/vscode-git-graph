@@ -40,6 +40,9 @@ jobs:
     - name: Build
       run: npm run compile
     
+    - name: Run tests
+      run: npm run test:unit
+    
     - name: Check for compilation artifacts
       run: |
         if [ ! -d "out" ]; then

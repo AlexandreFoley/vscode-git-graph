@@ -1,0 +1,16 @@
+{
+  "extends": "./src/tsconfig.json",
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "types": ["mocha", "node", "chai"]
+    },
+    "files": true
+  },
+  "compilerOptions": {
+    "types": ["mocha", "node", "chai"]
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

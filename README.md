@@ -68,11 +68,28 @@ To run the linter:
 npm run lint
 ```
 
+### Testing
+
+To run the test suite:
+
+```bash
+npm test
+```
+
+To run only unit tests:
+
+```bash
+npm run test:unit
+```
+
+For more details on testing, see the [Test README](src/test/README.md).
+
 ### Continuous Integration
 
 This project uses GitHub Actions for continuous integration. The CI pipeline automatically:
 - Lints the code using TSLint
 - Builds the extension
+- Runs the test suite
 - Tests on multiple platforms (Ubuntu, Windows, macOS)
 - Tests on multiple Node.js versions (14.x, 16.x, 18.x)
 
