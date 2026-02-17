@@ -183,9 +183,9 @@
     "package": "npm run clean && vsce package",
     "package-and-install": "npm run clean && vsce package && node ./.vscode/install-package.js",
     "postinstall": "node ./node_modules/vscode/bin/install && node ./.vscode/setup-test-mock.js",
-    "test": "npm run compile && NODE_PATH=test-mocks TS_NODE_PROJECT=tsconfig.test.json mocha --require ts-node/register \"src/test/**/*.test.ts\"",
-    "test:unit": "NODE_PATH=test-mocks TS_NODE_PROJECT=tsconfig.test.json mocha --require ts-node/register \"src/test/unit/**/*.test.ts\"",
-    "test:watch": "NODE_PATH=test-mocks TS_NODE_PROJECT=tsconfig.test.json mocha --require ts-node/register \"src/test/**/*.test.ts\" --watch",
+    "test": "npm run compile && cross-env NODE_PATH=test-mocks TS_NODE_PROJECT=tsconfig.test.json mocha --require ts-node/register \"src/test/**/*.test.ts\"",
+    "test:unit": "cross-env NODE_PATH=test-mocks TS_NODE_PROJECT=tsconfig.test.json mocha --require ts-node/register \"src/test/unit/**/*.test.ts\"",
+    "test:watch": "cross-env NODE_PATH=test-mocks TS_NODE_PROJECT=tsconfig.test.json mocha --require ts-node/register \"src/test/**/*.test.ts\" --watch",
     "test:setup": "node ./.vscode/setup-test-mock.js"
   },
   "devDependencies": {
@@ -195,6 +195,7 @@
     "@types/sinon": "^17.0.4",
     "@vscode/test-electron": "^2.5.2",
     "chai": "^4.5.0",
+    "cross-env": "^10.1.0",
     "mocha": "^10.8.2",
     "sinon": "^17.0.1",
     "ts-node": "^10.9.2",
