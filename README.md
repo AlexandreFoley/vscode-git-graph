@@ -1,5 +1,7 @@
 # Git Graph extension for Visual Studio Code
 
+[![CI](https://github.com/AlexandreFoley/vscode-git-graph/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexandreFoley/vscode-git-graph/actions/workflows/ci.yml)
+
 View a Git Graph of your repository, and easily perform Git actions from the graph. Configurable to look the way you want!
 
 ![Recording of Git Graph](https://github.com/mhutchie/vscode-git-graph/raw/master/resources/demo.gif)
@@ -46,6 +48,35 @@ This extension consumes the following settings:
 * `git.path`: Specifies the path of a portable Git installation.
 
 More information on each setting, including detailed descriptions, default values and types is available [here](https://github.com/mhutchie/vscode-git-graph/wiki/Extension-Settings).
+
+## Development
+
+### Building the Extension
+
+To build the extension from source:
+
+```bash
+npm install
+npm run compile
+```
+
+### Linting
+
+To run the linter:
+
+```bash
+npm run lint
+```
+
+### Continuous Integration
+
+This project uses GitHub Actions for continuous integration. The CI pipeline automatically:
+- Lints the code using TSLint
+- Builds the extension
+- Tests on multiple platforms (Ubuntu, Windows, macOS)
+- Tests on multiple Node.js versions (14.x, 16.x, 18.x)
+
+The CI runs on every push to `develop` or `master` branches and on all pull requests.
 
 ## Extension Commands
 
