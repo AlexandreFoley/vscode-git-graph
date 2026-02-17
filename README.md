@@ -1,5 +1,5 @@
 # Git Graph extension for Visual Studio Code
-
+ 
 [![CI](https://github.com/AlexandreFoley/vscode-git-graph/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexandreFoley/vscode-git-graph/actions/workflows/ci.yml)
 
 View a Git Graph of your repository, and easily perform Git actions from the graph. Configurable to look the way you want!
