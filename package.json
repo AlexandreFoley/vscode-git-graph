@@ -185,7 +185,7 @@
     "postinstall": "node ./node_modules/vscode/bin/install && node ./.vscode/setup-test-mock.js",
     "test": "npm run compile && NODE_PATH=test-mocks TS_NODE_PROJECT=tsconfig.test.json mocha --require ts-node/register \"src/test/**/*.test.ts\"",
     "test:unit": "NODE_PATH=test-mocks TS_NODE_PROJECT=tsconfig.test.json mocha --require ts-node/register \"src/test/unit/**/*.test.ts\"",
-    "test:watch": "mocha --require ts-node/register 'src/test/**/*.test.ts' --watch",
+    "test:watch": "NODE_PATH=test-mocks TS_NODE_PROJECT=tsconfig.test.json mocha --require ts-node/register \"src/test/**/*.test.ts\" --watch",
     "test:setup": "node ./.vscode/setup-test-mock.js"
   },
   "devDependencies": {

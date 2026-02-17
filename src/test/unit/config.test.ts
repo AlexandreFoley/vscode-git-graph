@@ -2,9 +2,9 @@ import { expect } from 'chai';
 import { getConfig } from '../../config';
 
 describe('Config', () => {
-	// Note: These tests verify that the config methods can be called
-	// and return values. Since we're running in a real VS Code environment
-	// during tests, we get actual configuration values or defaults.
+	// Note: These tests use a mocked VS Code environment.
+	// The vscode module is mocked in test-mocks/vscode/ to provide
+	// minimal implementations that return default configuration values.
 
 	describe('Configuration methods', () => {
 		let config: ReturnType<typeof getConfig>;
